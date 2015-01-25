@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wechat="http://schemas.android.com/apk/res/com.example.wechat"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wechat.MainActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal" >
+
+        <com.example.wechat.BottomItemChangeColor
+            android:id="@+id/id_wechat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wechat:icons="@drawable/tab_chat2"
+            wechat:text="@string/app_name"
+            wechat:text_size="12sp"
+            wechat:color="#ff45C01A" />
+
+        <com.example.wechat.BottomItemChangeColor
+            android:id="@+id/id_contacts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wechat:icons="@drawable/tab_contact2"
+            wechat:text="@string/tab_contat"
+            wechat:text_size="12sp"
+            wechat:color="#ff45C01A" />
+
+        <com.example.wechat.BottomItemChangeColor
+            android:id="@+id/id_found"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wechat:icons="@drawable/tab_found2"
+            wechat:text="@string/tab_found"
+            wechat:text_size="12sp"
+            wechat:color="#ff45C01A" />
+
+        <com.example.wechat.BottomItemChangeColor
+            android:id="@+id/id_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            wechat:icons="@drawable/tab_me2"
+            wechat:text="@string/tab_me"
+            wechat:text_size="12sp"
+            wechat:color="#ff45C01A" />
+    </LinearLayout>
+
+</LinearLayout>

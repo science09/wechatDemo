@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wechat.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/action_search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    
+    <item 
+        android:id="@+id/action_add"
+        android:icon="@drawable/action_add"
+        android:title="@string/action_add" />
+    
+    <item 
+        android:id="@+id/action_group_chat"
+        android:icon="@drawable/action_group_chat"
+        android:title="@string/menu_group_chat" />
+    <item 
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/action_add_friend"
+        android:title="@string/menu_addfriend" />
+    <item 
+        android:id="@+id/action_scan"
+        android:icon="@drawable/action_scan"
+        android:title="@string/menu_scan" />
+    <item 
+        android:id="@+id/action_feedback"
+        android:icon="@drawable/action_feedback"
+        android:title="@string/menu_feedback" />
+
+</menu>

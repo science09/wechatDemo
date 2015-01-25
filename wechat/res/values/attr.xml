@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <attr name="icons" format="reference"></attr>
+    <attr name="color" format="color"></attr>
+    <attr name="text" format="string"></attr>
+    <attr name="text_size" format="dimension"></attr>
+    
+    <declare-styleable name="BottomItemChangeColor">
+        <attr name="icons"></attr>
+        <attr name="color"></attr>
+        <attr name="text"></attr>
+        <attr name="text_size"></attr>
+    </declare-styleable>
+    
+</resources>
